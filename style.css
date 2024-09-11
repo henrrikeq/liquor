@@ -1,4 +1,68 @@
 .header{
-    font-size: 15px;
-    color: red;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: goldenrod;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    font-size: 2.5rem;
+}
+
+.italic{
+    font-style: oblique;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    height: 80px;
+}
+.nav-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    gap: 30px;
+    color: white;
+    text-decoration: none;
+    border: none;
+}
+
+.nav-items a{
+    color: white;
+    text-decoration: none;
+}
+
+.header button{
+    background-color: black;
+    color: goldenrod;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-style: solid;
+    border-color: goldenrod;
+}
+
+#hero{
+    background-image: url(./img/heroimg.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+}
+
+.overlay{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 3rem;
 }
