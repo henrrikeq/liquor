@@ -23,6 +23,8 @@ nav{
     color: white;
     font-size: 17px;
     height: 80px;
+    
+    
 }
 .nav-items{
     display: flex;
@@ -54,6 +56,7 @@ nav{
     display: flex;
     flex-direction: column;
     color: white;
+    font-weight: normal;
 }
 
 #heroimg{
@@ -74,7 +77,8 @@ nav{
     font-size: 19px;
     background-color: goldenrod;
     height: 50px;
-    padding: 10px;
+    padding: 10px 30px;
+    
 }
 
 .title{
@@ -84,6 +88,8 @@ nav{
     font-size: 40px;
     background-color: black;
     color: white;
+    padding: 90px;
+    font-weight: normal;
 }
 
 .feature-grid{
@@ -165,6 +171,7 @@ img{
 .footer-sect{
     background-color: black;
     color: white;
+    padding-left: 200px;
 }
 
 .close{
@@ -175,7 +182,7 @@ img{
     padding-top: 20px;
     font-size: 25px;
     border-bottom: 1px solid;
-    width: 80%;
+    width: 90%;
 
     
 }
@@ -202,23 +209,29 @@ img{
     grid-template-columns: 2fr 1fr 1fr;
     padding-top: 70px;
     border-bottom: 1px solid;
+    width: 90%;
     padding-bottom: 70px;
+    gap: 70px;
+    column-gap: 20px;
 }
 
 .logos{
     display: flex;
     flex-direction: column;
+    margin: 30px;
 }
 
 .c-num{
     display: flex;
     flex-direction: column;
+    margin: 30px;
+    
 }
 
 .sec-border{
 font-size: 18px;
 font-weight: normal;
-padding-left: 70px;
+padding-left: 150px;
 }
 
 .sec-border button{
@@ -245,3 +258,5 @@ padding-left: 70px;
     justify-content: center;
     padding: 30px 20px;
 }
+
+
